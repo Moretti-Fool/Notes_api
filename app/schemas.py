@@ -6,5 +6,7 @@ class NoteRequest(BaseModel):
     file_name: str
     content: str
 
+
+
 class NoteEdit(NoteRequest):
     edit: bool 
